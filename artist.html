@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Static Template</title>
+
+    <!--background color for both the webpages is slightly diffferent-->
+    <style>
+        body{
+            background-color: rgba(12,16,39,255);
+        }
+    </style>
+  </head>
+
+  <body>
+
+      <!-- Header code which contains nav-bar  and navbar is same for both the webpges -->
+    <header>
+        <nav>			
+          
+            <li class="logo" style="padding-left:0px;position:absolute;">
+              <i class="fas fa-music"></i>
+            </li>
+            
+            <div style="display:inline-block;position:absolute;left:55px;color:white;text-align: center;padding-left:10px;font-size:16px;">
+              <span  style="color:white;font-size:24px">Sumit </span> 
+               <br>Studio</br>
+            </div>
+            <div class="nav-item" style="position:absolute;margin-top:10px;text-align: center;left:190px">
+                        Favorites
+            </div>
+            
+            
+                    <div class="nav-item" style="position:absolute;margin-top:10px;margin-left: 600px;width:450px">
+                      <div class="search nav-item"><i class="fas fa-search"></i>
+                      <input type="text" name="search" placeholder="search"><i style="margin-right: 20px"class="fas fa-microphone"></i>
+                    </div>
+            </div>
+            <div class="nav-item scale" style="position:absolute;margin-top:20px;margin-left:1000px">
+                        <i class="far fa-bell fa-lg"></i>
+        
+            </div>
+    
+            <div class="nav-item image round-border-image">
+              <img src="https://media.allure.com/photos/5ade193f276cd40c0eb8f460/1:1/w_2987,h_2987,c_limit/GettyImages-950087436.jpg">
+            </div>			
+          </nav>
+        </header>
+
+        <!-- main content begins which contain the artist info followed by artist's song list-->
+        <main>
+
+          <!-- 1st section contains the info of artist and his/her image-->
+            <section id="artist-info">
+                <div class="artist-info-container">
+                    <div class="artist-img">
+                        <img class="two" src="images\190118102004-01-ariana-grande-7-rings.jpg" alt="cant display" height="100%" width="350px">
+                    </div>
+
+                    <div class="artist-info">
+                        <div  class="artist-name">
+                            <h1 class="text-clr"> ColdPlay</h1>
+                            <span class="followers">851 followers</span>
+                            <p class="band-name">British Band</p>
+                        </div>
+                        <p class="artist-info-text">Coldplay are a British rock band formed in London in 1996.The four members, lead singer and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion were at University College London.Coldplay achieved worldwide fame with the release of the song "Yellow".</p>
+                        <div class="play-all-div">
+                            <button>Play All</button>
+                            <span>Follow</span>
+                        </div>
+                        <div class="tracks">
+                            <p>247 tracks|128 albums</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- 2nd section contains the songs of artist along with index, songname, image and emoji to make
+            that song favorite or emoji to add it in your playlist-->
+            <section id="artists-songs">
+                <div class="artists-songs-container">
+                  <div class="individual-song inline-block">
+                    <div class="index">01</div>
+                    <div class="img-holder inline-block">
+                      <a href="#music-bar" style="display: inline-block;">
+                      
+                        <img src="images\galiyaan.jpg" height="60px" width="60px">
+                        <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                        
+                      </a>
+                    </div>
+                    <div class="curr-song-name inline-block">
+                        <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+                    </div>
+                    <div class="heart-emoji inline-block">
+                        <i class="far fa-heart fa-lg" style="color: white;"></i>
+                        <i class="fa-solid fa-plus fa-lg"></i>
+                    </div>
+                </div>
+                    <div class="individual-song inline-block">
+                      <div class="index">01</div>
+                      <div class="img-holder inline-block">
+                        <a href="#music-bar" style="display: inline-block;">
+                        
+                          <img src="images\galiyaan.jpg" height="60px" width="60px">
+                          <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                          
+                        </a>
+                      </div>
+                      <div class="curr-song-name inline-block">
+                          <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+                      </div>
+                      <div class="heart-emoji inline-block">
+                          <i class="far fa-heart fa-lg" style="color: white;"></i>
+                          <i class="fa-solid fa-plus fa-lg"></i>
+                      </div>
+                  </div>
+                  <div class="individual-song inline-block">
+                    <div class="index">01</div>
+                    <div class="img-holder inline-block">
+                      <a href="#music-bar" style="display: inline-block;">
+                      
+                        <img src="images\galiyaan.jpg" height="60px" width="60px">
+                        <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                        
+                      </a>
+                    </div>
+                    <div class="curr-song-name inline-block">
+                        <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+                    </div>
+                    <div class="heart-emoji inline-block">
+                        <i class="far fa-heart fa-lg" style="color: white;"></i>
+                        <i class="fa-solid fa-plus fa-lg"></i>
+                    </div>
+                </div>
+                <div class="individual-song inline-block">
+                  <div class="index">01</div>
+                  <div class="img-holder inline-block">
+                    <a href="#music-bar" style="display: inline-block;">
+                    
+                      <img src="images\galiyaan.jpg" height="60px" width="60px">
+                      <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                      
+                    </a>
+                  </div>
+                  <div class="curr-song-name inline-block">
+                      <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+                  </div>
+                  <div class="heart-emoji inline-block">
+                      <i class="far fa-heart fa-lg" style="color: white;"></i>
+                      <i class="fa-solid fa-plus fa-lg"></i>
+                  </div>
+              </div>
+              <div class="individual-song inline-block">
+                <div class="index">01</div>
+                <div class="img-holder inline-block">
+                  <a href="#music-bar" style="display: inline-block;">
+                  
+                    <img src="images\galiyaan.jpg" height="60px" width="60px">
+                    <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                    
+                  </a>
+                </div>
+                <div class="curr-song-name inline-block">
+                    <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+                </div>
+                <div class="heart-emoji inline-block">
+                    <i class="far fa-heart fa-lg" style="color: white;"></i>
+                    <i class="fa-solid fa-plus fa-lg"></i>
+                </div>
+            </div>
+            <div class="individual-song inline-block">
+              <div class="index">01</div>
+              <div class="img-holder inline-block">
+                <a href="#music-bar" style="display: inline-block;">
+                
+                  <img src="images\galiyaan.jpg" height="60px" width="60px">
+                  <i class="fa-solid fa-play fa-2x" style="display: inline-block;position: relative;top:-50px;left:20px"></i>
+                  
+                </a>
+              </div>
+              <div class="curr-song-name inline-block">
+                  <p>Please me<br> <span style="font-size:10px;color:lightgrey">Alan walker </span> </p>
+              </div>
+              <div class="heart-emoji inline-block">
+                  <i class="far fa-heart fa-lg" style="color: white;"></i>
+                  <i class="fa-solid fa-plus fa-lg"></i>
+              </div>
+          </div>
+                    
+
+                </div>
+
+            </section>
+        <!--main ends here-->
+        </main> 
+
+        
+        <!--aside starts here which contains two section-->
+        <aside>
+
+          <!--first section contains the list of similar artist-->
+            <section id="similar-artists">
+                <h1 style="font-weight:bold;font-size:larger">Similar Artists
+                    <span style="margin-left: 60px; font-size:small;color:lightgrey">View All</span>
+                </h1>
+                <div class="release" style="width:100%;flex-wrap:nowrap;flex-direction:column;">
+                    <div class="artist-img-containr" style="height:40%;margin-bottom:0px;">
+                      <a href="#music-bar">
+                        <img src="images\Katy perry.jpg" height="90px" width="90px">
+                        <i class="fa-solid fa-play fa-2x play-button"></i>
+                      </a>
+                      <p class="song-name">Alan Ban</p>
+                                  <p class="release-date" style="margin-top: 65px; color:grey; margin-left: 10px;font-size:13px">Pop Band</p>
+                      <div class="artist-img-containr-icn" style="position: relative;
+                      left: 160%;top:-40%;height:50%;width:50%">
+                        <i class="fas fa-ellipsis-v " style="transform: rotate(90deg);position:relative;left:5%;"></i><br>
+                        4:20</div>
+                    </div>
+                    <div class="artist-img-containr" style="height:40%;margin-bottom:0px;">
+                        <a href="#music-bar" >
+                          <img src="images\Katy perry.jpg" height="90px" width="90px">
+                          <i class="fa-solid fa-play fa-2x play-button"></i>
+                        </a>
+                        <p class="song-name">Alan Ban</p>
+                                    <p class="release-date" style="margin-top: 65px; color:grey; margin-left: 10px;font-size:13px">Pop Band</p>
+                                    <div class="artist-img-containr-icn" style="position: relative;
+                                    left: 160%;top:-40%;height:50%;width:50%">
+                                      <i class="fas fa-ellipsis-v " style="transform: rotate(90deg);position:relative;left:5%;"></i><br>
+                                      4:20</div>
+                      </div>
+                      <div class="artist-img-containr" style="height:40%;margin-bottom:0px;">
+                        <a href="#music-bar" >
+                          <img src="images\Katy perry.jpg" height="90px" width="90px">
+                          <i class="fa-solid fa-play fa-2x play-button"></i>
+                        </a>
+                        <p class="song-name">Alan Ban</p>
+                                    <p class="release-date" style="margin-top: 65px; color:grey; margin-left: 10px;font-size:13px">Pop Band</p>
+                                    <div class="artist-img-containr-icn" style="position: relative;
+                                    left: 160%;top:-40%;height:50%;width:50%">
+                                      <i class="fas fa-ellipsis-v " style="transform: rotate(90deg);position:relative;left:5%;"></i><br>
+                                      4:20</div>
+                      </div>
+                      
+                      
+                </div>
+            </section>
+
+
+            <!--2nd section contains the list of recently played songs and after clicking on songs, music player will be shown-->
+
+            <section id="recently-played">
+                <h1 style="font-weight:bold;font-size:larger">Recently Played
+                    <span style="margin-left: 60px; font-size:small;color:lightgrey">View All</span>
+                </h1>
+                
+                <div class="column-playlist">
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                     
+                      <div class="song-image">
+                        <a href="#music-bar" style="width:10px">
+                          <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                      
+                    </div>
+                    <div class="song">
+                      <div class="song-index">02</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                    </div>
+                    <div class="song">
+                      <div class="song-index">01</div>
+                      <p class="info">Please me<br> <span style="font-size:10px">Alan walker </span> </p>
+                      <i class="far fa-heart" style="color: white;position: relative;left:150px"></i>
+                      <i class="fa-solid fa-play fa-2x play-button-aside"></i>
+                      <div class="song-image">
+                        <img src="images\tere sang yara.jpg" height="60px" width="60px">
+                      </div>
+                    </div>
+                </div>
+
+            </section>
+        </aside>
+
+        <footer>
+          <!--The bottom music bar which pops up when we play a music-->
+         <div id="music-bar">
+           <!--Music Icon-->
+           <div id="music-icon">
+              <img src="images\I'll Wait.jpg" alt="music-icon">
+           </div>
+           <!--End of music icon-->
+           <!--Music title-->
+           <div id="music-title">
+             <b>evermore (feat. Bon Iver)</b>
+                   <div id="favourite">
+                <i class="far fa-heart"></i>
+             </div>
+             <div id="remove">
+               <i class="fas fa-ban"></i>
+             </div>
+             <br/>
+             <artist>Taylor Swift</artist>
+           </div>
+           <!--End of music title-->
+           <!--Play buttons-->
+           <div id="play-buttons">
+             <i class="fas fa-random"></i>
+             <i class="fas fa-backward"></i>
+             <i class="fas fa-pause-circle"></i>
+             <i class="fas fa-forward"></i>
+             <i class="fas fa-undo-alt"></i>
+           </div>
+           <!--End of play buttons-->
+           <!--Music start time-->
+             <div id="start-time">
+                   0:00
+             </div>
+             <!--End of music start time-->
+             <!--Music end time-->
+             <div id="end-time">
+                   5:04
+             </div>
+             <!--End of music end time-->
+             <!--Begining of the progress bar-->
+           <div id="progress-bar">
+                <div id="circle">
+                 
+                    <input type="range" min="0" max="100" style="width:100%;">
+                  
+                 
+               </div>
+           </div>
+           <!--End of progress bar-->
+           <!--Miscellaneous icons-->
+           <div id="queue">
+             <i class="fas fa-bars"></i>
+           </div>
+           <div id="volume">
+             <i class="fas fa-volume-up vol-up"></i>
+             <i class="fas fa-volume-mute vol-down" style=" position:relative;left:-25px;opacity: 0;"></i>
+           </div>
+           <div id="progress-bar-volume">
+            
+             <div id="circle-volume">
+               <input type="range" min="0" max="100" style="color:green;">
+               </div>
+               
+           </div>
+           <!--End of miscellaneous icons-->
+         </div>
+         <!--End of music bar-->
+          </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
